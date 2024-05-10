@@ -1,0 +1,38 @@
+data:
+define func, saymsg
+set int> n1, 10
+set string> msg1, >Hello!<
+set input> msg2, >Say something > <
+
+saymsg:
+push prv, n1
+push prc, newline
+push prv, msg1
+push prc, newline
+push prv, msg2
+push prc, newline
+
+start:
+set int> n2, 10
+set string> msg3, >WDWSVWHSV!<
+push prv, msg3
+push prc, newline
+set input> msg4, >WHSIUWDGVYD > <
+push prv, msg4
+push prc, newline
+push prc, H
+push prc, e
+push prc, l
+push prc, l
+push prc, o
+push prc,  
+push prc, A
+push prc, A
+push prc, A
+push prc, A
+push prc, A
+push prc, A
+push prc, H
+push prc, !
+push prc, newline
+call, saymsg
